@@ -5,7 +5,7 @@
 console.log(3 + 3)
 
 // code readability should be high
-//react node avoid semicolon
+//react,node avoid semicolon
 
 //PRIMITIVE DATA TYPE
 //number => 2 to power 53
