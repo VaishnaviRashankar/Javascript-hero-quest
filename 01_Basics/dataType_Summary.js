@@ -59,8 +59,10 @@ console.log(typeof myFunction);
 
 //====================>Memory<====================
 
-//Stack(Primitive)
+//Stack(Primitive)change in copy not chnage in original value
 //Heap(Non-Prirmitve)
+
+
 
 
 let myname = "doga"
@@ -69,13 +71,14 @@ anothername = "doga_the_software Engineer"
 console.log(myname);
 console.log(anothername);
 
-let user ={
-    email : "user@xyzname",
+let userOne ={
+    email : "user@xyzname",  //inside heap it give the referance
     upi : "user@ybi"
 }
 
-let userTwo = user
-userTwo.email = "user@xyzname" 
-console.log();
+let userTwo = userOne
+userTwo.email = "doga@xyzname" 
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
